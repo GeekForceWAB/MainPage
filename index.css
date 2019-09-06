@@ -1,0 +1,16 @@
+body {
+  background: #2A363B;
+}
+
+#text {
+  color: #E84A5F;
+}
+
+.links {
+  color: #99B898;
+}
+
+.links ul {
+  list-style: none;
+  color: #99B898;
+}
