@@ -1,16 +1,21 @@
 body {
-  background: #2A363B;
+  background: #32322b;
 }
 
-#text {
-  color: #E84A5F;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.links {
-  color: #99B898;
+
+#join{
+  color: #FFA827;
 }
 
-.links ul {
-  list-style: none;
-  color: #99B898;
+
+li a {
+  display: block;
+  width: 60px;
 }
