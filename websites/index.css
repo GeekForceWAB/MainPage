@@ -2,24 +2,6 @@ body {
   background: #32322b;
 }
 
-@media screen and (min-width: 0px) and (max-width: 900px) {
-  #interactive { display: none; }
-  #join{
-  color: #FFA827;
-    position: relative;
-    top: 0px; 
-    z-index: 1;
-}
-  }
-@media screen and (min-width: 901px){
-    #join{
-  color: #FFA827;
-    position: relative;
-    top: -200px; 
-    z-index: -1;
-}
-  
-}
 
 ul {
   list-style-type: none;
@@ -27,17 +9,19 @@ ul {
   padding: 0;
 }
 
+h2 {
+color: #FFA827;
+}
 
 
-#interactive{
-  position: relative;
-  top: -100px;
-  z-index:-1;  
-  }
 
-
-li a {
-  display: block;
+/*Style the links for the member website*/
+#link a:visited { color: #AE81FF; }
+#link a:link {color: #0080ff;}
+#link a:hover { color: #FFA827;}
+#link{
+  font-size: 25px;
+  font-weight: 1000;
 }
 
 /* Add a black background color to the top navigation */
@@ -45,7 +29,6 @@ li a {
   background-color: #FFFFFF;
   overflow: hidden;
 }
-
 
 /* Style the links inside the navigation bar */
 .menu a {
@@ -57,13 +40,11 @@ li a {
   font-size: 17px;
 }
 
-
 /* Change the color of links on hover */
 .menu a:hover {
   background-color: #000000;
   color: #FFFFFF;
 }
-
 
 /* Add a color to the active/current link */
 .menu a:active {

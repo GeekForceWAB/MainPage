@@ -6,7 +6,7 @@ var purple = [280, 50, 60];
 var bluefield = [199, 100, 22.9];
 var austin = [126, 24, 65];
 
-var myName = "geekforce.club";
+var myName = "Geekforce";
 var letterColors = [red, orange, green, blue, purple,bluefield, austin];
 var bubbleShape = "square";
 

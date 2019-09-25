@@ -2,39 +2,15 @@ body {
   background: #32322b;
 }
 
-@media screen and (min-width: 0px) and (max-width: 900px) {
-  #interactive { display: none; }
-  #join{
+h1 {
   color: #FFA827;
-    position: relative;
-    top: 0px; 
-    z-index: 1;
-}
-  }
-@media screen and (min-width: 901px){
-    #join{
-  color: #FFA827;
-    position: relative;
-    top: -200px; 
-    z-index: -1;
-}
-  
-}
+ }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
-
-
-#interactive{
-  position: relative;
-  top: -100px;
-  z-index:-1;  
-  }
-
 
 li a {
   display: block;
