@@ -42,7 +42,23 @@ li a {
 
 
 /* Add a color to the active/current link */
-.menu a:active {
-  background-color: #32322b;
-  color: #32322b;
+.menu a.active {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    letter-spacing: 3px;
+}
+
+#link a:visited { color: #AE81FF; }
+#link a:link {color: #0080ff;}
+#link a:hover { color: #FFA827;}
+#link{
+  font-size: 25px;
+  font-weight: 500;
+  list-style-type: none;
 }

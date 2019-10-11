@@ -66,9 +66,9 @@ li a {
 
 
 /* Add a color to the active/current link */
-.menu a:active {
-  background-color: #32322b;
-  color: #32322b;
+.menu a.active {
+  background-color: #000000;
+  color: #FFFFFF;
 }
 footer {
     text-align: center;

@@ -47,7 +47,14 @@ color: #FFA827;
 }
 
 /* Add a color to the active/current link */
-.menu a:active {
-  background-color: #32322b;
-  color: #32322b;
+.menu a.active {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    letter-spacing: 3px;
 }
