@@ -55,6 +55,8 @@ color: #FFA827;
 a.disable {
   pointer-events: none;
   cursor: default;
+  color: #363636;
+  text-decoration: none;
 }
 
 footer {
